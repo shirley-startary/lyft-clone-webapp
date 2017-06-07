@@ -1,0 +1,21 @@
+.presentacion{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(../assets/img/screen.png);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.barra{
+  width: 80%;
+  margin:100% auto;
+}
+.progress{
+  display: flex;
+  justify-content: center;
+  background-color: rgba(166, 34, 155,0.8);
+}
+.progress .indeterminate{
+  background-color: white;
+}
