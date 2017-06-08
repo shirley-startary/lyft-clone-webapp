@@ -1,21 +1,66 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+}
 .presentacion{
   display: flex;
   justify-content: center;
+  align-items: center;
   height: 100vh;
   background-image: url(../assets/img/screen.png);
-  background-position: bottom;
-  background-size: cover;
+  background-size:cover;
+  background-position: center;
   background-repeat: no-repeat;
 }
 .barra{
   width: 80%;
-  margin:100% auto;
 }
 .progress{
-  display: flex;
-  justify-content: center;
-  background-color: rgba(166, 34, 155,0.8);
+  background-color: rgba(166, 34, 155,1);
 }
 .progress .indeterminate{
   background-color: white;
+}
+
+
+.video_background {
+	position: fixed;
+	bottom: 0px;
+	right: auto;
+	min-width: 100%;
+	min-height: 100%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+}
+.displayFlex{
+  display: flex;
+  justify-content: center;
+}
+.imagenLogo{
+  text-align: center;
+  margin-top: 5%;
+  width: 25%;
+  height: 100%;
+}
+.position{
+  height:80vh;
+  align-items: flex-end;
+}
+.row{
+  width: 100%;
+  margin:0;
+}
+.boton {
+	width: 100%;
+  border-radius: 5px;
+}
+
+.botonDerecho{
+	background: linear-gradient(to right,#66074a 43%,#e60b62 100%);
+}
+
+.botonIzquierdo{
+	border: 1px solid #FFF;
+	background-color: transparent;
 }
